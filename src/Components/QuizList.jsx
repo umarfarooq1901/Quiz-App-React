@@ -6,7 +6,8 @@ const QuizList = ({questions, options, handleSelect , selectedOptions, answer}) 
         <h1 className="text-3xl font-bold bg-teal-600 text-white py-5">
         Hello Quiz App!
   </h1>
-  <div className='bg-gray-700 text-white py-4 my-5'>
+  <div className='flex justify-center'>
+  <div className='bg-gray-700 text-white py-4 my-5 shadow-lg rounded w-full md:w-1/2'>
         <h2 className='font-bold my-5 text-3xl'>{questions}</h2>
         <ul >
             {options.map((option, index)=>(
@@ -17,6 +18,7 @@ const QuizList = ({questions, options, handleSelect , selectedOptions, answer}) 
             ))}
         </ul>
   </div>
+    </div>
     </div>
   )
 }

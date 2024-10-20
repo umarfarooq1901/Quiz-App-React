@@ -126,7 +126,7 @@ const questions = [
     },
     {
         question: 'What is Redux?',
-        options: ['A state management library', 'A styling library', 'A routing library', 'A testing framework'],
+        options: ['A styling library','A state management library', 'A routing library', 'A testing framework'],
         answer: 'A state management library'
     },
     {
